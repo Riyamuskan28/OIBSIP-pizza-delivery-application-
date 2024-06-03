@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* height: 100%; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.adminfunctions{
+  padding: 20px;
+  background-color:rgb(1, 1, 77);
+}
+
+.adminfunctions li{
+  list-style-type: none !important; 
+  display: inline !important;
+  color: white !important;
+  margin-left: 120px;
+}
+.adminfunctions li a{
+   color: white !important;
+   padding: 20px;
+   text-decoration: none;
+   text-align: center;
+}
+.box{
+  color: rgba(25, 129, 129, 0.858);
+}
+.box1{
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+.filterbox{
+  display: block;
+  margin-left: 300px;
+ 
+}
+.loginbox{
+  height: 370px;
+  width: 500px;
+  background-color: #94FFD8;
+display: block;
+margin-top: 90px;
+border-radius: 30px;
+}
+.formlogin{
+  
+  padding: 40px;
+}
+.regbox{
+  height: 500px;
+  width: 500px;
+  background-color: #94FFD8;
+  display: block;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+.btn{
+ background-color: #FF0080;
+}
+.btn:hover{
+  background-color: #FF0080;
+}
+.infos{
+  color: #FF0080;
+}
+.text{
+  left: 200px;
+  position: absolute;
+  text-align: center;
+  color: #FF0080;
+  bottom: 0px;
+}
+.eatpizza{
+  height: 460px;
+  display: block;
+  margin-left: 290px;
+}
+.log{
+position: absolute;
+left: 722px;
+    bottom: 239px;
+}
+.sin{
+  position: absolute;
+  left: 730px;
+  bottom: 138px;
+}
+.load{
+  position: fixed;
+  left: 50%;
+  top:35%;
+  z-index: 1000;
+  height: 31px;
+  width: 31px;
+color: #FF0080;
+}
+.new{
+  height: 200px;
+  width: 900px;
+  margin-left: 270px;
+}
